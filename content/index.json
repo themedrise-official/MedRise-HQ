@@ -1,0 +1,7 @@
+{
+  "files": [
+    "biology/cell-unit-of-life.json",
+    "biology/plant-kingdom.json",
+    "tests/plant-kingdom-test.json"
+  ]
+}
