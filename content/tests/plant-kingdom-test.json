@@ -1,0 +1,11 @@
+{
+  "id": "tests-plant-kingdom-test",
+  "template": "test-v1",
+  "status": "progress",
+  "meta": { "title": "Plant Kingdom: Practice Test", "subtitle": "3 MCQs", "class": "Class 11", "subject": "Biology", "time": "10 min" },
+  "questions": [
+    { "q": "Artificial system of classification was given by:", "options": ["Linnaeus", "Bentham and Hooker", "Engler", "Hutchinson"], "answer": 0, "explanation": "Linnaeus used few vegetative and **androecium** characters." },
+    { "q": "Which is an example of **oogamous** algae?", "options": ["*Ulothrix*", "*Spirogyra*", "*Volvox*", "*Eudorina*"], "answer": 2, "explanation": "*Volvox* and *Fucus* are oogamous." },
+    { "q": "Agar is obtained from:", "options": ["*Laminaria*", "*Gelidium*", "*Fucus*", "*Chlamydomonas*"], "answer": 1, "explanation": "*Gelidium* and *Gracilaria* give agar." }
+  ]
+}
