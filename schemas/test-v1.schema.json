@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Reference schema. The authoritative rules are in js/validate.js (run: node tools/validate.mjs).",
+  "title": "MedRise test-v1",
+  "type": "object",
+  "required": ["id", "template", "meta", "questions"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "template": { "const": "test-v1" },
+    "status": { "enum": ["pending", "progress", "done"] },
+    "meta": { "type": "object", "required": ["title"], "properties": { "title": { "type": "string", "minLength": 1 }, "subtitle": { "type": "string" }, "class": { "type": "string" }, "subject": { "type": "string" }, "time": { "type": "string" } } },
+    "questions": { "type": "array", "items": { "type": "object", "required": ["q", "options", "answer"], "properties": { "q": { "type": "string", "minLength": 1 }, "options": { "type": "array", "minItems": 2, "maxItems": 8, "items": { "type": "string", "minLength": 1 } }, "answer": { "type": "integer", "minimum": 0, "$comment": "0-based index; must be < options.length (checked by validator)" }, "explanation": { "type": "string" } } } }
+  }
+}
