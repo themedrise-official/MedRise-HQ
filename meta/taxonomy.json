@@ -1,0 +1,5 @@
+{
+  "statuses": ["pending", "progress", "done"],
+  "templates": ["note-v1", "test-v1"],
+  "blockTypes": ["bullets", "table", "sub", "p", "note", "svg"]
+}
