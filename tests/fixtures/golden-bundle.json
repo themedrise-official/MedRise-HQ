@@ -1,0 +1,78 @@
+{
+  "schema": "medrise.bundle/1",
+  "source": {
+    "id": "golden-note",
+    "path": "content/golden/golden-note.json",
+    "template": "note-v1"
+  },
+  "sha256": "5e53b263fd83dabfc4cea0709015081d46999f5685911a3462e7a6f8274d8dd3",
+  "exportedAt": "2026-11-01T10:00:00.000Z",
+  "content": {
+    "id": "golden-note",
+    "template": "note-v1",
+    "meta": {
+      "title": "Golden Note",
+      "subtitle": "Short Notes | Class 11 Biology | Chapter 3",
+      "class": "Class 11",
+      "chapter": "Ch 3",
+      "crumb": "Golden"
+    },
+    "sections": [
+      {
+        "heading": "1. Basics",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Cell **jeevan ki ikai** hai. Hindi: कोशिका. Quote \"x\" and \\ backslash."
+          },
+          {
+            "type": "sub",
+            "text": "Types"
+          },
+          {
+            "type": "bullets",
+            "items": [
+              "Prokaryotic",
+              "Eukaryotic",
+              "Emoji ✓ é"
+            ]
+          },
+          {
+            "type": "note",
+            "text": "Tip: NCERT line by line padho."
+          }
+        ]
+      },
+      {
+        "heading": "2. Table and diagram",
+        "blocks": [
+          {
+            "type": "table",
+            "head": [
+              "Feature",
+              "Plant",
+              "Animal"
+            ],
+            "rows": [
+              [
+                "Cell wall",
+                "Present",
+                "Absent"
+              ],
+              [
+                "Centriole",
+                "Absent",
+                "Present"
+              ]
+            ]
+          },
+          {
+            "type": "svg",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 60\"><defs><linearGradient id=\"g1\"><stop offset=\"0\" stop-color=\"#0a7\"/></linearGradient></defs><rect x=\"2\" y=\"2\" width=\"96\" height=\"56\" fill=\"url(#g1)\"/><text x=\"50\" y=\"30\">Cell wall</text></svg>",
+            "caption": "Fig 1: *Plant* cell"
+          }
+        ]
+      }
+    ]
+  }
+}
