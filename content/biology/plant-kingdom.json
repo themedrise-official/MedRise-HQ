@@ -1,0 +1,37 @@
+{
+  "id": "biology-plant-kingdom",
+  "template": "note-v1",
+  "status": "done",
+  "meta": {
+    "title": "Plant Kingdom", "subtitle": "Short Notes | Class 11 Biology | Chapter 3",
+    "class": "Class 11", "chapter": "Ch 3", "crumb": "Plant Kingdom",
+    "syllabus_label": "NEET (UG) 2026 SYLLABUS | UNIT 1: DIVERSITY IN LIVING WORLD",
+    "syllabus": "Salient features and classification of plants into major groups - Algae, Bryophytes, Pteridophytes, Gymnosperms and Angiosperms (three to five salient and distinguishing features and at least two examples of each category); Angiosperms - classification up to class, characteristic features and examples"
+  },
+  "sections": [
+    { "heading": "1. Plants ke classification systems", "blocks": [
+      { "type": "table", "head": ["System", "Basis", "Note"], "rows": [
+        ["**Artificial**", "Sirf kuch **vegetative characters** ya **androecium (stamens)** ki structure.", "**Linnaeus** ka system. Related aur unrelated species ek saath aa jati thi."],
+        ["**Natural**", "**Natural affinities**: external + internal features (ultrastructure, anatomy, embryology, phytochemistry).", "**Bentham and Hooker** ka system angiosperms ke liye."],
+        ["**Phylogenetic**", "**Evolutionary relationships**; common ancestry ke basis par.", "Ab ye accept hota hai. **Numerical taxonomy**, **cytotaxonomy** aur **chemotaxonomy** bhi use hote hain."]
+      ] }
+    ] },
+    { "heading": "2. Algae", "blocks": [
+      { "type": "bullets", "items": [
+        "**Chlorophyll-bearing, simple, thalloid, autotrophic**, mostly **aquatic** (fresh + marine). Fungi ke saath **lichens** banate hain.",
+        "**Form aur size:** microscopic **unicellular** (*Chlamydomonas*), **colonial** (*Volvox*), **filamentous** (*Ulothrix*, *Spirogyra*), aur kuch marine forms jaise **kelps** bahut bade.",
+        "**Vegetative reproduction: fragmentation.** **Asexual: zoospores.** **Sexual:** do gametes ke fusion se."
+      ] },
+      { "type": "table", "head": ["Sexual reproduction type", "Gametes", "Examples"], "rows": [
+        ["**Isogamous**", "Dono gametes **similar size** ke.", "*Ulothrix*, *Spirogyra*"],
+        ["**Anisogamous**", "Dono gametes **size me alag**.", "*Eudorina*"],
+        ["**Oogamous**", "**Bada, non-motile female gamete** + **chhota, motile male gamete**.", "*Volvox*, *Fucus*"]
+      ] },
+      { "type": "sub", "text": "Algae ki economic importance" },
+      { "type": "bullets", "items": [
+        "Earth par **CO₂ fixation ka lagbhag aadha** photosynthesis se algae karte hain.",
+        "**Food:** *Porphyra*, *Laminaria*, *Sargassum*. **Agar:** *Gelidium*, *Gracilaria*."
+      ] }
+    ] }
+  ]
+}
