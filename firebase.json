@@ -1,0 +1,20 @@
+
+{
+  "hosting": {
+    "site": "medrise-hq",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      ".git/**",
+      ".github/**",
+      "README.md",
+      "CHANGELOG.md",
+      "RULES.md",
+      "docs/**",
+      "tests/**",
+      "tools/**",
+      "package.json"
+    ]
+  }
+}
