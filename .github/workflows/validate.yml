@@ -1,0 +1,25 @@
+
+name: Validate content
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/build-index.mjs
+      - run: node tools/validate.mjs
+      - run: node --test tests/*.test.mjs
+      - name: Real-browser sanitizer tests
+        run: |
+          npm i --no-save playwright
+          npx playwright install --with-deps chromium
+          node tests/browser/run.mjs
+          node tests/browser/app-smoke.mjs
+          
